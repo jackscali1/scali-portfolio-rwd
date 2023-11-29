@@ -1,0 +1,72 @@
+html{
+  background:linear-gradient(0deg,grey,blue);
+  border:solid black 3px;
+  
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e90ff; 
+}
+.nav-link {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#title{
+  text-align:center;
+  display:block;
+  margin-top:0px;
+  font-size:100px;
+  font-family:fantasy;
+  border:0;
+  color:white;
+
+}
+
+#img_header{
+  display:inline-block;
+  height:240px;
+  width:240px;
+  border:solid black 5px;
+  border-radius:550px;
+  align-items: center;
+
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  object-fit:cover;
+  gap:30px;
+  align-items:center;
+}
+
+#img_headshot{
+  height:300px;
+  width:300px;
+  border-radius:150px;
+  border:solid white 5px;
+  align-items: center;
+}
+
+.bio{
+  text-align:center;
+  font-family:sans-serif;
+  color:white;
+}
+
+#img_portfolio{
+  display:inline-block;
+  height:300px;
+  width:300px;
+  border:solid black 2px;
+  border-radius:2px;
+  margin:0 auto;
+}
+
+@media screen and (max-width: 600px) {
+}
